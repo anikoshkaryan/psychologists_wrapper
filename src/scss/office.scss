@@ -1,0 +1,1634 @@
+
+//personal_office
+.personal_office_of_psychologist_title {
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 42px;
+    text-align: center;
+    color: #000000;
+    margin-bottom: 25px;
+}
+
+
+.personal_office_of_psychologist_click_items_wrapper {
+    max-width: 762px;
+    width: 100%;
+    margin: 0 auto;
+    margin-bottom: 29px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.personal_office_of_psychologist_item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    padding: 10px 0;
+  
+}
+.personal_office_of_psychologist_item_title {
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #3E4143;
+    margin-left: 6px;
+    text-decoration: none;
+}
+
+.personal_office_of_psychologist_item.active .personal_office_of_psychologist_item_title 
+{
+    color: #FFFFFF;
+    
+}
+
+
+.personal_office_of_psychologist_item.active
+{
+    width: 226px;
+    border-radius: 56px;
+    background: #3E4143;
+
+}
+
+
+.personal_office_of_psychologist_item.active .personal_office_of_psychologist_item_svg_wrapper svg path{
+    
+  fill: #FFFFFF;
+
+}
+
+.personal_office_of_psychologist_form_wrapper{
+    max-width: 1172px;
+    width: 100%;
+    margin: 0 auto;
+    background: #FFFFFF;
+    border-radius: 56px;
+    margin-bottom: 142px;
+    padding: 73px 99px 106px 99px;
+    display: none;
+    align-items: flex-start;
+    margin-bottom: 180px;
+}
+
+.personal_office_of_psychologist_form_wrapper.open{
+    display: flex!important;
+}
+
+.personal_office_of_psychologist_form_item_title1 {
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 150%;
+    color: #000000;
+}
+
+.first_personal_item{
+    margin-right: 83px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 403px;
+}
+
+.personal_office_of_psychologist_form_item_title2 {
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 150%;
+    color: #3E4143;
+}
+
+.personal_office_of_psychologist_form_item_title_switch_btn_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 677px;
+    margin-bottom: 42px;
+}
+
+.personal_line {
+    max-width: 675px;
+    width: 100%;
+    border: 1px solid #EFEFEF;
+    margin-bottom: 33px;
+}
+
+.personal_office_upcoming_session_title {
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 150%;
+    color: #000000;
+    margin-bottom: 15px;
+}
+.personal_office_upcoming_session_inputs_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 24px;
+}
+.personal_office_upcoming_session_input {
+    width: 89px;
+    height: 52px;
+    background: #F7F7F9;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.personal_office_upcoming_session_input.active{
+    background: #3E4143!important;
+}
+
+.personal_office_upcoming_session_input.active .personal_office_upcoming_session_input label {
+    background: #3E4143!important;
+}
+
+.personal_office_upcoming_session_input.active .personal_check_input_text{
+    color: #FFFFFF!important;
+    opacity: 1!important;
+}
+
+.personal_office_upcoming_session_input label{
+    width: 89px;
+    height: 52px;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.personal_check_input_text {
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    color: #000000;
+    opacity: 0.25;
+}
+
+
+.personal_office_upcoming_session_psychologist {
+    background: #FFFFFF;
+    border: 1px solid #F1F1F1;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
+    border-radius: 16px;
+    margin-bottom: 17px;
+    padding: 23px 36px 36px 36px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.personal_office_upcoming_session_psychologist_hour {
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 170%;
+    color: #6ABE5C;
+}
+.personal_office_upcoming_session_psychologist_name {
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 150%;
+    color: #000000;
+}
+.personal_office_upcoming_session_psychologist_text1 {
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 170%;
+    color: #000000;
+    margin-bottom: 2px;
+}
+.personal_office_upcoming_session_psychologist_text2 {
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    color: #3E4143;
+    margin-bottom: 13px;
+}
+.personal_office_upcoming_session_psychologist_svg_title_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     width: 202px;
+    height: 52px;
+    background: #F7F7F9;
+    border-radius: 16px;
+}
+.personal_office_upcoming_session_psychologist_text3 {
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    color: #3E4143;
+    margin-left: 5px;
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.personal_office_upcoming_session_psychologist_text3:focus, .personal_office_upcoming_session_psychologist_text3:active{
+    outline: none;
+}
+.svg_text_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.svg_text_wrapper_title {
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 170%;
+    color: #9C9FA0;
+}
+
+.completed_sessions_title {
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 150%;
+    color: #000000;
+}
+.completed_sessions_main_text {
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 150%;
+    color: #3E4143;
+    margin-bottom: 18px;
+}
+.personal_office_completed_sessions {
+    background: #FFFFFF;
+    border: 1px solid #F1F1F1;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
+    border-radius: 16px;
+    margin-bottom: 16px;
+    padding: 23px 37px 37px 37px;
+}
+.personal_office_completed_sessions_hour {
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 24px;
+    line-height: 170%;
+    color: #BDBDBD;
+}
+.personal_office_completed_sessions_name {
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 150%;
+    color: #000000;
+}
+.personal_office_completed_sessions_text1 {
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 170%;
+    color: #000000;
+}
+.personal_office_completed_sessions_text2 {
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 170%;
+    color: #3E4143;
+}
+#exampleFormControlSelect1 {
+    max-width: 478px;
+    width: 100%;
+    height: 70px;
+    background: #F7F7F9;
+    border: 1px solid #EBEBEB;
+    box-sizing: border-box;
+    border-radius: 16px;
+    margin-bottom: 27px;
+    padding: 22px 30px;
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 23px;
+    appearance: none;
+    color: #000000;
+}
+
+
+#exampleFormControlSelect1 option{
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 23px;
+    color: #000000;
+}
+.personal_office_of_psychologist_form_item_main_title {
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 150%;
+    color: #000000;
+    margin-bottom: 20px;
+    text-decoration: none;
+    color: #888888;
+    cursor: pointer;
+}
+.personal_office_of_psychologist_form_item_main_title.active_color{
+    color: #000000;
+}
+
+.main-label {
+    display: flex;
+    align-items: center;
+    max-width: 479px;
+    width: 100%;
+    height: 67px;
+    padding: 22px 25px;
+    background: #F7F7F9;
+    border-radius: 16px;
+    margin-bottom: 16px;
+    position: relative;
+}
+
+.main-label svg{
+    margin-right: 11px;
+}
+.main-label2 {
+    display: flex;
+    align-items: center;
+    max-width: 479px;
+    width: 100%;
+    height: 70px;
+    background: #F7F7F9;
+    padding: 22px 25px;
+    border: 1px solid #EBEBEB;
+    box-sizing: border-box;
+    border-radius: 16px;
+    position: relative;
+    margin-bottom: 16px;
+}
+
+.main-label2 svg{
+    margin-right: 11px;
+}
+.four_step_input_field{
+     border: none;
+    background: none;
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    outline: none;
+    color: #000000;
+}
+
+.main-label2.active{
+    width: 479px;
+    height: 67px;
+    background: #FFFFFF;
+    border: 1px solid #CECECE;
+    box-sizing: border-box;
+    border-radius: 16px;
+
+}
+.main-label.active{
+    background: #FFFFFF;
+    border: 2px solid #87D17B;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 12px rgba(82, 218, 128, 0.15);
+    border-radius: 16px;
+    height: 63px;
+   
+}
+.label-text{
+    padding: 2px 10px;
+    position: absolute;
+    left: 50px;
+    font-family: 'Manrope', sans-serif!important;
+    color: #777777;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    color: #000000;
+    opacity: 0.5;
+    
+}
+
+.label-text2{
+    padding: 2px 10px;
+    position: absolute;
+    left: 50px;
+    font-family: 'Manrope', sans-serif!important;
+    color: #777777;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    color: #000000;
+    opacity: 0.5;
+    
+}
+.main-label2.active .label-text2{
+    top: -13px;
+    background: white;
+    transition: 0.5s;
+    font-size: 14px!important;
+    opacity: 1!important;
+}
+.main-label.active .label-text{
+    top: -13px;
+    background: white;
+    transition: 0.5s;
+    font-size: 14px!important;
+    opacity: 1!important;
+}
+.main-label.active .special_svg path{
+    stroke:#6ABE5C;
+}
+.profile_img_text_wrapper {
+    margin-bottom: 45px;
+    display: flex;
+    justify-content: space-between;
+}
+.personal_line2 {
+    max-width: 675px;
+    width: 100%;
+    height: 1px;
+    border: 1px solid #EFEFEF;
+    margin-bottom: 46px;
+}
+.personal_datas_title {
+    font-family: 'Manrope', sans-serif!important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 150%;
+    color: #000000;
+}
+.personal_datas_text {
+    font-family: 'Manrope', sans-serif!important;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 150%;
+    color: #3E4143;
+    margin-bottom: 20px;
+}
+.profile_text_title {
+    font-family: 'Manrope', sans-serif!important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 26px;
+    line-height: 150%;
+    color: #000000;
+}
+.profile_text_info1 {
+    font-family: 'Manrope', sans-serif!important;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 7px;
+}
+.profile_text_info2 {
+    font-family: 'Manrope', sans-serif!important;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 160%;
+    color: #3E4143;
+}
+.profile_input_wrapper svg {
+    margin-right: 8px;
+}
+.file_input{
+    border: none;
+    width: 80px!important;
+}
+.file_input::-webkit-file-upload-button {
+    visibility: hidden;
+  }
+  .profile_input_wrapper{
+    width: 153px;
+    height: 47px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 12px rgba(43, 51, 45, 0.1);
+    border-radius: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom: 25px;
+    left: 23px
+
+  }
+  .file_input::before {
+    content: 'Заменить';
+    font-family: 'Manrope', sans-serif!important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    color: #000000;
+  }
+ 
+.profile_img{
+    margin-right: 30px;
+}
+.personal_datas {
+    margin-bottom: 57px;
+}
+.about_myself{
+    margin-bottom: 54px;
+}
+.about_myself_info {
+    font-family: 'Manrope', sans-serif!important;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 170%;
+    color: #3E4143;
+}
+.about_myself_info_wrapper{ 
+    background: #FFFFFF;
+    border: 1px solid #CECECE;
+    box-sizing: border-box;
+    border-radius: 16px;
+    padding: 20px 30px;
+    max-width: 677px;
+    width: 100%;
+}
+
+.education_input_wrapper{
+    max-width: 677px;
+    width: 100%;
+    cursor: pointer;
+    outline: #6ED87F!important;
+    background: #FFFFFF;
+    border: 1px solid #CECECE;
+    box-sizing: border-box;
+    border-radius: 16px;
+    padding: 23px 28px;
+    margin-bottom: 12px;
+    font-family: 'Manrope', sans-serif!important;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 170%;
+    color: #3E4143;
+}
+.education_input_wrapper::placeholder{
+    font-family: 'Manrope', sans-serif!important;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 170%;
+    color: #3E4143;
+}
+.education_input_wrapper:focus, .education_input_wrapper:active{
+    outline: none!important;
+    border: 1px solid #6ED87F;
+}
+.education{
+    margin-bottom: 54px;
+}
+.education_link{
+    max-width: 677px;
+    width: 100%;
+    background: #F7F7F9;
+    border: 1px solid #EBEBEB;
+    box-sizing: border-box;
+    border-radius: 16px;
+    font-family: 'Manrope', sans-serif!important;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 170%;
+    color: #000000;
+    opacity: 0.5;
+    text-align: left;
+    padding: 23px 28px;
+    cursor: pointer;
+}
+.education_link:active, .education_link:focus{
+    outline: none!important;
+    border: 1px solid #6ED87F;
+
+}
+.form_control2{
+    max-width: 478px;
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px solid #CECECE;
+    box-sizing: border-box;
+    border-radius: 16px;
+    padding: 25px 30px;
+    appearance: none;
+    position: relative;
+    font-family: 'Manrope', sans-serif!important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 23px;
+    color: #000000;
+}
+
+.form_control2 option{
+    font-family: 'Manrope', sans-serif!important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 23px;
+    color: #000000;
+}
+.form_control2_wraper{
+    position: relative;
+    max-width: 478px;
+    width: 100%;
+}
+
+
+.form_control2_wraper:before{
+    content: "";
+    background-image: url("../images/arrow1.png");
+    width: 15px;
+    height: 15px;
+    background-size: contain;
+    position: absolute;
+    top: 36px;
+    right: 30px;
+    z-index: 5;
+    background-repeat: no-repeat;
+}
+
+
+.competencies{
+    margin-bottom: 51px;
+}
+.reception_schedule{
+    margin-bottom: 64px;
+}
+.schedule_input_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 26px;
+}
+.schedule_input{
+     width: 89px;
+    height: 52px;
+    background: #F7F7F9;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.schedule_input label{
+    width: 89px;
+    height: 52px;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.schedule_span_text{
+    font-family: 'Manrope', sans-serif!important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 150%;
+    color: #000000;
+    opacity: 0.5;
+}
+
+.schedule_input.active{
+    background: #FFFFFF;
+    border: 2px solid #87D17B;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 12px rgba(82, 218, 128, 0.15);
+    border-radius: 16px;
+}
+.schedule_input.active .schedule_span_text{
+     opacity: 1!important;
+}
+
+
+.schedule_text {
+    font-family: 'Manrope', sans-serif!important;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 150%;
+    color: #3E4143;
+}
+#form_select {
+    font-family: 'Manrope', sans-serif!important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 150%;
+    color: #3E4143;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+#form_select option {
+    font-family: 'Manrope', sans-serif!important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 150%;
+    color: #3E4143;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.schedule_select_wrapper{
+    margin-bottom: 14px;
+}
+.schedule_hour_input_wrapper{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.schedule_hour_input {
+    width: 87px;
+    height: 52px;
+    background: #F7F7F9;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 11px;
+    margin-right: 9px;
+}
+.schedule_hour_input label {
+    width: 87px;
+    height: 52px;;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.schedule_hour_input.active{
+    background: #FFFFFF;
+    border: 2px solid #87D17B;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 12px rgba(82, 218, 128, 0.15);
+    border-radius: 16px;
+}
+.schedule_hour_input.active .schedule_span_text{
+    opacity: 1!important;
+}
+
+
+.reception_schedule2{
+    margin-bottom: 62px;
+}
+.account_deleting_text {
+    font-family: 'Manrope', sans-serif!important;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 150%;
+    color: #3E4143;
+}
+.account_deleting_text_wrapper{
+    margin-bottom: 12px;
+}
+.account_deleting_btn {
+    font-family: 'Manrope', sans-serif!important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 26px;
+    color: #696969;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: none;
+    text-decoration: none;
+}
+.account_deleting_btn.active_color{
+    color: #6ABE5C;
+}
+.first_account_btn{
+    margin-right: 22px;
+}
+.personal_office_main_link_wrapper {
+    position: relative;
+    bottom: -135px;
+}
+.personal_office_main_link:hover{
+    background: linear-gradient(90deg, #54A547 0%, #57C269 100%);
+    box-shadow: 0px 4px 14px rgba(24, 227, 68, 0.35), inset 0px 4px 30px rgba(255, 255, 255, 0.4);
+}
+.personal_office_main_link{  
+    background: linear-gradient(90deg, #6ABE5C 0%, #6ED87F 100%);
+    box-shadow: 0px 20px 30px rgba(24, 227, 68, 0.35), inset 0px 4px 30px rgba(255, 255, 255, 0.4);
+    border-radius: 50px;
+    padding: 33px 49px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-family: 'Manrope', sans-serif!important;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 19px;
+    line-height: 26px;
+    color: #FFFFFF;
+}
+.new_notifications_items_wrapper_hidden{
+    display: none;
+}
+.new_notifications_items_wrapper_hidden.open{
+    display: block!important;
+}
+.new_notifications_item{
+    max-width: 677px;
+    width: 100%;
+    background: #FFFFFF;
+    border: 1px solid #F1F1F1;
+    box-sizing: border-box;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.05);
+    border-radius: 16px;
+    padding: 24px 37px 30px 37px;
+    margin-bottom: 32px;
+}
+.data_title{
+    margin-bottom: 16px;
+}
+.new_notifications_item_number {
+    font-family: 'Manrope', sans-serif!important;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    color: #ADADAD;
+    margin-bottom: 7px;
+}
+.new_notifications_item_title {
+    font-family: 'Manrope', sans-serif!important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 19px;
+    line-height: 150%;
+    color: #000000;
+    margin-bottom: 3px;
+}
+.new_notifications_item_text {
+    font-family: 'Manrope', sans-serif!important;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 150%;
+    color: #000000;
+    margin-bottom: 14px;
+}
+.new_notifications_ok_btn{
+    width: 99px;
+    height: 52px;
+    background: #F7F7F9;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.new_notifications_ok_btn_text{
+    font-family: 'Manrope', sans-serif!important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 150%;
+    color: #3E4143;
+}
+.notifications_show_more_link {
+    font-family: 'Manrope', sans-serif!important;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 170%;
+    color: #6ABE5C;
+    cursor: pointer;
+    border: none;
+    background: none;
+    outline: none;
+    margin-bottom: 20px;
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 59px;
+    height: 34px;
+  }
+  
+  .switch input { 
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color:  #F7F7F9;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color:  #87D17B;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #DEF5DA;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #DEF5DA;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+
+  @media (min-width:800px) and (max-width:1257px){
+    .personal_office_of_psychologist_form_wrapper {
+        padding: 64px 50px 85px 50px!important;
+  }
+}
+
+@media (min-width:600px) and (max-width:799px){
+    .personal_office_of_psychologist_form_wrapper {
+        padding: 50px 30px 60px 30px!important;
+        border-radius: 35px!important;
+  }
+}
+
+@media (min-width:426px) and (max-width:599px){
+    .personal_office_of_psychologist_form_wrapper {
+        padding: 40px 20px!important;
+        border-radius: 20px!important;
+  }
+  .new_notifications_item {
+    border-radius: 16px;
+    padding: 22px 28px!important;
+  }
+  .schedule_text {
+    font-size: 16px!important;
+}
+#form_select, #form_select option, .account_deleting_text, .schedule_text {
+    font-size: 16px!important;
+}
+  .about_myself_info {
+    font-size: 16px!important;
+  }
+  .label-text, .label-text2 {
+    font-size: 16px!important;
+  }
+  .personal_datas_text {
+    font-size: 16px!important;
+
+  }
+  .personal_datas_title {
+    font-size: 24px!important;
+  }
+  .personal_office_of_psychologist_form_item_title1 {
+    font-size: 24px!important;
+  }
+  .personal_office_upcoming_session_title{
+    font-size: 24px!important;
+  }
+  .completed_sessions_title {
+    font-size: 24px!important;
+  }
+  .personal_check_input_text {
+    font-size: 16px!important;
+  }
+  .personal_office_upcoming_session_input, .personal_office_upcoming_session_input label {
+    width: 80px!important;
+    height: 50px!important;
+    border-radius: 10px!important;
+  }
+  .completed_sessions_main_text {
+    font-size: 16px!important;
+  }
+}
+@media (max-width:425px){
+    .personal_office_of_psychologist_form_wrapper {
+        padding: 50px 15px!important;
+        border-radius: 15px!important;
+  }
+  .new_notifications_item {
+    border-radius: 12px!important;
+    padding: 20px 15px!important;
+  }
+  .new_notifications_item_text {
+    font-size: 14px!important;
+  }
+  .new_notifications_ok_btn {
+    height: 44px!important;
+    border-radius: 12px!important;
+  }
+  .new_notifications_ok_btn_text {
+    font-size: 15px!important;
+}
+  .new_notifications_item_title {
+    font-size: 16px!important;
+  }
+.account_deleting_btn {
+    font-size: 16px!important;
+}
+  .main-label2{
+      height: 60px!important;
+  }
+  .schedule_select_wrapper {
+    margin-bottom: 14px;
+    text-align: center;
+}
+.reception_schedule2 {
+    margin-bottom: 40px!important;
+}
+.personal_line2 {
+    margin-bottom: 35px!important;
+}
+.personal_datas {
+    margin-bottom: 45px!important;
+}
+.about_myself {
+    margin-bottom: 45px!important;
+}
+
+.education {
+    margin-bottom: 45px!important;
+}
+.competencies{
+    margin-bottom: 45px!important;
+}
+.reception_schedule {
+    margin-bottom: 50px!important;
+}
+  #form_select, #form_select option, .account_deleting_text, .schedule_text {
+    font-size: 14px!important;
+}
+  .schedule_text {
+    font-size: 14px!important;
+}
+  .about_myself_info {
+    font-size: 14px!important;
+  }
+  .personal_datas_title {
+    font-size: 22px!important;
+    text-align: center;
+  }
+  .personal_office_of_psychologist_form_item_main_title {
+    font-size: 16px!important;
+  }
+  .form_control2_wraper:before {
+    width: 11px!important;
+    height: 11px!important;
+  }
+  .personal_office_completed_sessions_text1 {
+    font-size: 14px!important;
+  }
+  .personal_office_completed_sessions_name {
+    font-size: 16px!important;
+  }
+  .personal_office_completed_sessions_hour {
+    font-size: 22px!important;
+  }
+  .completed_sessions_main_text {
+    font-size: 14px!important;
+  }
+  .personal_check_input_text {
+    font-size: 14px!important;
+  }
+  .personal_office_upcoming_session_input, .personal_office_upcoming_session_input label {
+    width: 60px!important;
+    height: 50px!important;
+    border-radius: 8px!important;
+  }
+  .completed_sessions_title {
+    font-size: 22px!important;
+  }
+    .personal_office_of_psychologist_form_item_title2 {
+        font-size: 12px!important;
+    }
+    .personal_office_upcoming_session_psychologist_name {
+        font-size: 16px!important;
+    }
+    .personal_office_of_psychologist_form_item_title1 {
+        font-size: 20px!important;
+    }
+    .personal_office_upcoming_session_title{
+        font-size: 20px!important;
+    }
+    .personal_office_upcoming_session_psychologist {
+        padding: 20px 10px!important;
+        border-radius: 8px!important;
+    }
+    .personal_office_completed_sessions{
+        padding: 20px 10px!important;
+        border-radius: 8px!important;
+    }
+    .personal_office_upcoming_session_psychologist_text3 {
+    font-size: 12px!important;
+    }
+    .svg_text_wrapper {
+    flex-direction: column;
+    align-items: flex-end!important;
+    }
+    .personal_office_upcoming_session_psychologist_svg_title_wrapper {
+    margin-bottom: 10px;
+    }
+}
+
+@media(max-width:1160px){
+    .personal_office_of_psychologist_form_item_title_switch_btn_wrapper {
+        width: unset!important;
+    }
+    
+    }
+
+ @media(min-width:458px) and (max-width:1160px){
+      
+    .personal_office_upcoming_session_inputs_wrapper {
+            flex-wrap: wrap;
+            justify-content: unset!important;
+      }
+     .personal_office_upcoming_session_input {
+            margin-right: 8px;
+            margin-bottom: 8px;
+    }
+
+  }
+
+ @media(max-width:457px){
+      
+    .personal_office_upcoming_session_inputs_wrapper {
+            flex-wrap: wrap;
+            justify-content: center!important;
+      }
+     .personal_office_upcoming_session_input {
+            margin-right: 8px;
+            margin-bottom: 8px;
+    }
+
+  }
+    @media (min-width:801px) and (max-width:1054px){
+        .first_personal_item {
+            margin-right: 80px!important;
+            width: unset!important;
+        }
+    }
+
+
+    @media (min-width:800px) and (max-width:1050px){
+        .personal_office_of_psychologist_title {
+            font-size: 38px!important;
+    }
+    .personal_office_of_psychologist_form_wrapper {
+      margin-bottom: 140px!important;
+    }
+}
+
+@media (min-width:470px) and (max-width:799px){
+    .personal_office_of_psychologist_title {
+        font-size: 34px!important;
+        margin-bottom: 20px!important;
+}
+.personal_office_of_psychologist_form_wrapper {
+    margin-bottom: 120px!important;
+  }
+}
+
+@media (min-width:426px) and (max-width:469px){
+    .personal_office_of_psychologist_title {
+        font-size: 30px!important;
+        margin-bottom: 15px!important;
+}
+
+.personal_office_of_psychologist_form_wrapper {
+    margin-bottom: 80px!important;
+  }
+}
+@media(max-width:470px){
+    .about_myself_info_wrapper {
+        border-radius: 12px!important;
+        padding: 10px 20px!important;
+}
+}
+@media (max-width:425px){
+    .personal_office_of_psychologist_title {
+        font-size: 28px!important;
+        margin-bottom: 10px!important;
+}
+.education_input_wrapper, .education_link {
+    padding: 18px 28px!important;
+    height: 64px!important;
+    font-size: 14px!important;
+}
+.form_control2 {
+    padding: 20px 30px!important;
+}
+.form_control2, .form_control2 option {
+    font-size: 14px!important;
+}
+.education_input_wrapper::placeholder {
+    font-size: 14px!important;
+}
+.label-text, .label-text2 {
+    font-size: 14px!important;
+  }
+  .special_svg {
+    width: 18px!important;
+}
+.four_step_input_field {
+    width: 170px!important;
+}
+.personal_datas_text {
+    font-size: 14px!important;
+    margin-bottom: 10px!important;
+    text-align: center;
+
+  }
+  .main-label {
+    height: 60px!important;
+  }
+.personal_office_of_psychologist_form_wrapper {
+    margin-bottom: 70px!important;
+  }
+.personal_office_upcoming_session_psychologist_text1 {
+    font-size: 14px!important;
+}
+.personal_office_upcoming_session_psychologist_hour {
+    font-size: 22px!important;
+}
+.personal_office_upcoming_session_psychologist_svg_title_wrapper {
+    height: 40px!important;
+    border-radius: 8px!important;
+}
+#exampleFormControlSelect1, #exampleFormControlSelect1 option {
+    font-size: 14px!important;
+}
+.personal_office_of_psychologist_form_item_main_title {
+    font-size: 16px!important;
+    margin-bottom: 10px!important;
+}
+.svg_text_wrapper svg {
+    width: 15px!important;
+}
+.svg_text_wrapper_title {
+    font-size: 12px!important;
+}
+}
+@media (min-width:720px) and (max-width:800px){
+    .personal_office_of_psychologist_item_title {
+        font-size: 16px!important;
+}
+.personal_office_of_psychologist_item.active {
+    width: 200px!important;
+}
+}
+
+
+@media (min-width:650px) and (max-width:719px){
+    .personal_office_of_psychologist_item_title {
+        font-size: 16px!important;
+}
+.personal_office_of_psychologist_item.active {
+    width: unset!important;
+    padding: 10px 20px;
+}
+}
+
+
+@media (min-width:590px) and (max-width:649px){
+    .personal_office_of_psychologist_item_title {
+        font-size: 14px!important;
+}
+.personal_office_of_psychologist_item.active {
+    width: unset!important;
+    padding: 10px 15px;
+}
+}
+
+@media (min-width:545px) and (max-width:589px){
+    .personal_office_of_psychologist_item_svg_wrapper svg {
+        width: 16px!important;
+    }
+ .personal_office_of_psychologist_item_title {
+        font-size: 14px!important;
+}
+.personal_office_of_psychologist_item.active {
+    width: unset!important;
+    padding: 8px 12px;
+}
+}
+
+@media (max-width:544px){
+    .personal_office_of_psychologist_item_svg_wrapper svg {
+        width: 20px!important;
+    }
+ .personal_office_of_psychologist_item_title {
+        font-size: 14px!important;
+
+}
+.personal_office_of_psychologist_item{
+    width: 48%;
+    margin: 0 auto;
+    flex-direction: column;
+    border-radius: 15px!important;
+    justify-content: center;
+    align-items: center;
+}
+.personal_office_of_psychologist_item.active {
+    flex-direction: column;
+    border-radius: 15px!important;
+    justify-content: center;
+    align-items: center;
+    width: 48%;
+}
+.personal_office_of_psychologist_click_items_wrapper {
+    flex-wrap: wrap;
+    justify-content: center!important;
+    align-items: center;
+}
+}
+
+
+@media(max-width:800px){
+    .personal_office_of_psychologist_form_item_title_switch_btn_wrapper {
+        flex-direction: column;
+        align-items: flex-end!important;
+        margin-bottom: 25px!important;
+    }
+    .personal_office_of_psychologist_form_item_title2 {
+        margin-bottom: 20px;
+    }
+    .personal_office_of_psychologist_form_wrapper.open {
+        flex-direction: column;
+    }
+    .first_personal_item {
+        margin-right: unset!important;
+        width: unset!important;
+        margin-bottom: 20px;
+    }
+}
+
+@media (min-width:426px) and (max-width:600px){
+    .personal_office_upcoming_session_psychologist {
+        padding: 25px 20px!important;
+}
+.personal_office_upcoming_session_psychologist_text3 {
+    font-size: 14px!important;
+}
+.svg_text_wrapper {
+  flex-direction: column;
+  align-items: flex-end!important;
+}
+.personal_office_upcoming_session_psychologist_svg_title_wrapper {
+    margin-bottom: 10px;
+}
+.personal_office_completed_sessions{
+    padding: 25px 20px!important;
+}
+}
+
+@media(max-width:370px){
+    #exampleFormControlSelect1 {
+        height: 65px!important;
+    }
+}
+
+@media(max-width:1055px){
+    #open_office_item2 {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    #special_personal_item{
+        flex-direction: unset!important;
+        flex-wrap: wrap;
+        width: unset!important;
+        justify-content: unset!important;
+        align-items: unset;
+        margin-bottom: 20px;
+    }
+    #special_personal_item .personal_office_of_psychologist_form_item_main_title{ 
+        margin-right: 10px;
+        margin-bottom: 8px;
+    }
+}
+
+
+@media (min-width:426px) and (max-width:766px){
+    .profile_text_info1 {
+        font-size: 16px!important;
+        margin-bottom: 7px;
+    }
+    .profile_text_info2 {
+        font-size: 14px!important;
+    }
+}
+
+@media(max-width:650px){
+    #profile_img_text_wrapper {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (min-width:426px) and (max-width:650px){
+    .profile_text_title {
+        font-size: 24px!important;
+    
+}
+
+}
+
+@media (max-width:425px) {
+    .profile_text_title {
+        font-size: 22px!important;
+        text-align: center;
+    
+}
+.profile_text_info1 {
+    font-size: 14px!important;
+    margin-bottom: 7px;
+    text-align: center;
+}
+.profile_text_info2 {
+    font-size: 12px!important;
+    text-align: center;
+}
+.profile_img  {
+  margin-right: unset!important;
+}
+}
+
+@media(max-width:370px){
+    .profile_img img {
+        width: 170px!important;
+    }
+    .profile_input_wrapper {
+        width: 150px;
+        height: 40px;
+        bottom: 25px;
+        left: 7px!important;
+    }
+    .file_input:before, .profile_text_info2 {
+        font-size: 13px!important;
+    }
+    .profile_input_wrapper svg {
+        width: 15px!important;
+    }
+}
+
+@media (min-width:426px) and (max-width:770px){
+    .schedule_input_wrapper {
+        flex-wrap: wrap;
+        justify-content: unset!important;
+    }
+    .schedule_input {
+        margin-bottom: 10px;
+        margin-right: 8px;
+    }
+}
+
+@media(min-width:426px) and (max-width:458px){
+    .schedule_input label {
+        width: 80px!important;
+        height: 48px!important;
+        border-radius: 10px!important;
+    }
+    .schedule_span_text {
+        font-size: 16px!important;
+    }
+    .schedule_span_text {
+        font-size: 16px!important;
+    }    
+    
+}
+@media(max-width:425px){
+    .schedule_input label {
+        width: 80px!important;
+        height: 48px!important;
+        border-radius: 10px!important;
+    }
+    .schedule_span_text {
+        font-size: 14px!important;
+    }
+    .schedule_input_wrapper {
+        flex-wrap: wrap;
+        justify-content: center!important;
+    }
+    .schedule_input {
+        margin-bottom: 10px;
+        margin-right: 8px;
+    }
+    .schedule_span_text {
+        font-size: 14px!important;
+    }    
+}
+
+@media(max-width:550px){
+    .schedule_hour_input {
+        width: 80px!important;
+        height: 50px!important;
+    }
+    .schedule_hour_input_wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+@media(max-width:500px){
+    .account_deleting_btn_wrapper {
+        flex-direction: column;
+        display: flex;
+    }
+}
+
+@media (min-width:426px) and (max-width:602px){
+    .personal_office_main_link_wrapper {
+        position: relative;
+        bottom: -100px!important;
+    }
+    .personal_office_main_link{
+        font-size: 17px!important;
+        padding: 28px 45px!important;
+    }
+}
+
+@media (min-width:371px) and (max-width:425px) {
+    .personal_office_main_link_wrapper {
+        position: relative;
+        bottom: -80px!important;
+    }
+    .personal_office_main_link{
+        font-size: 14px!important;
+        padding: 25px 35px!important;
+    }
+}
+
+@media (max-width:370px) {
+    .personal_office_main_link_wrapper {
+        position: relative;
+        bottom: -80px!important;
+    }
+    .personal_office_main_link{
+        font-size: 14px!important;
+        padding: 20px 30px!important;
+    }
+}
+
+@media(max-width:1050px){
+    #open_office_item3 {
+        flex-direction: column;
+    }
+}
